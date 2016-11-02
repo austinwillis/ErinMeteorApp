@@ -26,7 +26,7 @@ export default class Message extends Component {
   renderItem(item) {
     const classes = `slide slide-${this.state.currentItem + 1} ${this.state.dir > 0 ? 'slide-next' : 'slide-back'}`;
     return (
-        <div key={item} className={classes}>{item}</div>
+        <div key={item} className={classes}><p>{item}</p></div>
       );
   }
 
