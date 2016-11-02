@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router';
-import Messages from '../api/messages.js';
+import { Messages } from '../api/messages.js';
 
 export default class Edit extends Component {
   handleSubmit(event) {
